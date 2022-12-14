@@ -54,8 +54,8 @@ body{
 }
 .header{
     width: 100%;
-    display: grid;
-    grid-template-columns: .3fr 1fr;
+    display: flex;
+    justify-content: space-between;
     margin-top: 0.2px;
     position: sticky;
     top: 0;
