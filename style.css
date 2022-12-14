@@ -62,12 +62,12 @@ body{
     z-index: 999;
 }
 .head{
-    display: grid;
-    grid-template-columns:  .8fr .8fr 1fr 1fr .3fr;
+    display: flex;
+    justify-content: space-between;
     width: 1100px;
     height: 92px;
     border-bottom: solid 1px #FFD700;
-    margin-left: 605px;
+    margin-left: 60px;
 }
 .one{
     border-right: solid 1px #FFD700;
@@ -145,7 +145,7 @@ body{
 }
 .second-section{
     width: 100%;
-    height: 230vh;
+    height: 274vh;
     background: linear-gradient(rgba(0, 0, 0, .8), rgba(144, 126, 174, 0.8));
     position: relative;
 }
